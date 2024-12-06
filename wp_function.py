@@ -1,0 +1,16 @@
+import wp_func
+
+first_paragraph_text = "It was the moment he had fantasized about for four years. At 2:24 a.m. on Nov. 6, Donald Trump strutted on stage in a Florida ballroom, surrounded by advisers, party leaders, family and friends. The Associated Press had yet to call the race, but it was clear by then that the voters had swept him back into power. Staring out at a sea of supporters sporting red MAGA hats, Trump basked in the all-but-certain triumph. “We’ve achieved the most incredible political thing,” Trump said. “America has given us an unprecedented and powerful mandate."
+
+heading_one_text = "Why do we use it?"
+second_paragraph_text = "How Trump, 78, won re-election will be the stuff of history books, and already America’s choice can be traced to some key decisions. To Trump’s top aides, the thesis of the campaign could be summed up in a simple slogan: “Max out the men and hold the women.” That meant emphasizing the economy and immigration, which Trump did relentlessly. It meant diverting attention away from the chaos of his first term, the abortion bans he ushered in, and his assault on American democracy four years ago. It meant a campaign that rode the resentment of disenchanted voters and capitalized on the cultural fractures and tribal politics that Trump has long exploited."
+
+heading_two_text = "How Far Trump Would Go?"
+third_paragraph_text = "Most of all, the outcome can be credited to a singular figure whose return to the White House traced a political arc unlike any in 250 years of American history. Trump left office in 2021 a pariah after inciting a mob of supporters to ransack the U.S. Capitol at the end of an attempt to overturn his electoral defeat. Three years later, he engineered an unprecedented political comeback. Trump effortlessly dispatched his GOP rivals, forced President Joe Biden out of the race, and vanquished Vice President Kamala Harris in a dominant victory that exceeded virtually everyone’s expectations. Along the way, Trump shrugged off a 34-count felony conviction and an array of other criminal indictments."
+
+heading_third_text = "Order your copy of this issue of TIME!"
+fourth_paragraph_text = "The scale of his success was stunning. Trump carried North Carolina, flipped Georgia back to his column, and smashed through the Blue Wall. His campaign outperformed its goal of turning out men and holding women. Exit polls showed Trump winning large numbers of Latino men in key battleground states, improving his numbers with that group in Pennsylvania from 27% to 42%. Nationally, Trump's support among Latino men leaped from 36% to 54%. Trump also increased his share of voters without a college degree, gained ground with Black voters in Pennsylvania and Wisconsin, and held steady nationally with white women, shocking Democrats who had expected a post-Dobbs uprising. Among first-time voters, Trump boosted his support from 32% four years ago to a 54% majority."
+
+article = wp_func.wp_p(first_paragraph_text)+wp_func.wp_h2(heading_one_text)+wp_func.wp_p(second_paragraph_text)+wp_func.wp_h2(heading_two_text)+wp_func.wp_p(third_paragraph_text)+wp_func.wp_h2(heading_third_text)+wp_func.wp_p(fourth_paragraph_text)
+
+print(article)
