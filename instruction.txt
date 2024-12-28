@@ -21,3 +21,6 @@ First Time
 
 ############
 .gitignore
+
+# Copy Repository
+git clone <YOUR REPO URL>
